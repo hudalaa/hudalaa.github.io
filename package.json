@@ -3,13 +3,13 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "build.css": "tailwindcss build src/styles.css -o public/styles.css"
+    "build-css": "tailwindcss -i ./src/styles.css -o ./public/styles.css --watch"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
-  "dependencies": {
+  "devDependencies": {
     "tailwindcss": "^4.1.4"
   }
 }
