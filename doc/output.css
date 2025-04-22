@@ -562,19 +562,9 @@ video {
   margin: 1.25rem;
 }
 
-.mx-20 {
-  margin-left: 5rem;
-  margin-right: 5rem;
-}
-
 .my-2 {
   margin-top: 0.5rem;
   margin-bottom: 0.5rem;
-}
-
-.my-5 {
-  margin-top: 1.25rem;
-  margin-bottom: 1.25rem;
 }
 
 .flex {
@@ -593,10 +583,6 @@ video {
   width: 15rem;
 }
 
-.w-1\/2 {
-  width: 50%;
-}
-
 .-rotate-\[3deg\] {
   --tw-rotate: -3deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
@@ -607,28 +593,12 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.flex-row {
-  flex-direction: row;
-}
-
-.flex-col {
-  flex-direction: column;
-}
-
 .flex-wrap {
   flex-wrap: wrap;
 }
 
-.justify-start {
-  justify-content: flex-start;
-}
-
 .justify-center {
   justify-content: center;
-}
-
-.gap-20 {
-  gap: 5rem;
 }
 
 .gap-5 {
@@ -660,6 +630,11 @@ video {
   border-color: rgb(168 159 148 / var(--tw-border-opacity, 1));
 }
 
+.border-\[\#ccc\] {
+  --tw-border-opacity: 1;
+  border-color: rgb(204 204 204 / var(--tw-border-opacity, 1));
+}
+
 .border-\[\#da434f\]\/40 {
   border-color: rgb(218 67 79 / 0.4);
 }
@@ -684,11 +659,6 @@ video {
 .border-\[\#f5c379\] {
   --tw-border-opacity: 1;
   border-color: rgb(245 195 121 / var(--tw-border-opacity, 1));
-}
-
-.border-\[\#ccc\] {
-  --tw-border-opacity: 1;
-  border-color: rgb(204 204 204 / var(--tw-border-opacity, 1));
 }
 
 .bg-\[\#0c0c0c\] {
@@ -767,17 +737,8 @@ video {
   padding: 1rem;
 }
 
-.p-5 {
-  padding: 1.25rem;
-}
-
 .pt-20 {
   padding-top: 5rem;
-}
-
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
 }
 
 .text-3xl {
@@ -823,11 +784,9 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-* {
-  border-width: 1px;
-  --tw-border-opacity: 1;
-  border-color: rgb(220 38 38 / var(--tw-border-opacity, 1));
-}
+/* * {
+    @apply border border-red-600;
+  } */
 
 .hover\:rotate-0:hover {
   --tw-rotate: 0deg;
