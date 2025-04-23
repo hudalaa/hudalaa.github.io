@@ -586,6 +586,10 @@ video {
   margin: 0.5rem;
 }
 
+.m-4 {
+  margin: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -826,6 +830,10 @@ video {
 
   .sm\:m-5 {
     margin: 1.25rem;
+  }
+
+  .sm\:m-6 {
+    margin: 1.5rem;
   }
 }
 
