@@ -578,6 +578,10 @@ video {
   top: 2rem;
 }
 
+.-right-8 {
+  right: -2rem;
+}
+
 .-z-10 {
   z-index: -10;
 }
@@ -636,6 +640,14 @@ video {
 
 .gap-5 {
   gap: 1.25rem;
+}
+
+.gap-6 {
+  gap: 1.5rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .rounded-full {
@@ -759,6 +771,10 @@ video {
   padding: 0.5rem;
 }
 
+.p-1 {
+  padding: 0.25rem;
+}
+
 .pt-24 {
   padding-top: 6rem;
 }
@@ -824,6 +840,10 @@ video {
 }
 
 @media (min-width: 640px) {
+  .sm\:-right-10 {
+    right: -2.5rem;
+  }
+
   .sm\:m-4 {
     margin: 1rem;
   }
@@ -834,6 +854,18 @@ video {
 
   .sm\:m-6 {
     margin: 1.5rem;
+  }
+
+  .sm\:m-7 {
+    margin: 1.75rem;
+  }
+
+  .sm\:m-8 {
+    margin: 2rem;
+  }
+
+  .sm\:p-2 {
+    padding: 0.5rem;
   }
 }
 
