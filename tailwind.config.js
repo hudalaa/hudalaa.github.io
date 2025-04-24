@@ -43,8 +43,8 @@ export default {
         Plbeige:"#fceee5", 
         Pbbeige:"#e3c5aa", 
       
-        Plslate:"#dde2eb", 
-        Pbslate:"#6c7a89",
+        Plgray:"#dde2eb", 
+        Pbgray:"#6c7a89",
 
 
       },
