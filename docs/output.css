@@ -562,8 +562,8 @@ video {
   position: relative;
 }
 
-.-right-8 {
-  right: -2rem;
+.-right-7 {
+  right: -1.75rem;
 }
 
 .bottom-0 {
@@ -576,14 +576,6 @@ video {
 
 .top-8 {
   top: 2rem;
-}
-
-.-right-6 {
-  right: -1.5rem;
-}
-
-.-right-7 {
-  right: -1.75rem;
 }
 
 .-z-10 {
@@ -619,16 +611,12 @@ video {
   width: 15rem;
 }
 
-.w-\[140px\] {
-  width: 140px;
+.w-\[180px\] {
+  width: 180px;
 }
 
 .w-full {
   width: 100%;
-}
-
-.w-\[150px\] {
-  width: 150px;
 }
 
 .flex-col {
