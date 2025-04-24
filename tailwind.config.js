@@ -32,7 +32,21 @@ export default {
         Pbred: "#da434f",
 
         Plpink: "#ffe3ef",
-        Pbpink: "#e95a87"
+        Pbpink: "#e95a87",
+
+        Pllavander: "#f0e6ff", 
+        Pblavander: "#b197db",
+
+        Plmoss: "#e0f5e4", 
+        Pbmoss: "#5b9a77",
+
+        Plbeige:"#fceee5", 
+        Pbbeige:"#e3c5aa", 
+      
+        Plslate:"#dde2eb", 
+        Pbslate:"#6c7a89",
+
+
       },
     
     },

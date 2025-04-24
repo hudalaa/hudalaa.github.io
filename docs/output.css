@@ -562,8 +562,8 @@ video {
   position: relative;
 }
 
-.-right-10 {
-  right: -2.5rem;
+.-right-8 {
+  right: -2rem;
 }
 
 .bottom-0 {
@@ -576,10 +576,6 @@ video {
 
 .top-8 {
   top: 2rem;
-}
-
-.-right-8 {
-  right: -2rem;
 }
 
 .-z-10 {
@@ -642,14 +638,6 @@ video {
   gap: 1.25rem;
 }
 
-.gap-6 {
-  gap: 1.5rem;
-}
-
-.gap-8 {
-  gap: 2rem;
-}
-
 .rounded-full {
   border-radius: 9999px;
 }
@@ -662,33 +650,65 @@ video {
   border-width: 2px;
 }
 
-.border-Pbbleu {
-  --tw-border-opacity: 1;
-  border-color: rgb(33 165 221 / var(--tw-border-opacity, 1));
+.border-Pbbeige\/40 {
+  border-color: rgb(227 197 170 / 0.4);
 }
 
 .border-Pbbleu\/40 {
   border-color: rgb(33 165 221 / 0.4);
 }
 
+.border-Pbbleu\/50 {
+  border-color: rgb(33 165 221 / 0.5);
+}
+
 .border-Pbgreen\/40 {
   border-color: rgb(75 170 122 / 0.4);
+}
+
+.border-Pbgreen\/50 {
+  border-color: rgb(75 170 122 / 0.5);
 }
 
 .border-Pborange\/40 {
   border-color: rgb(245 195 121 / 0.4);
 }
 
+.border-Pborange\/50 {
+  border-color: rgb(245 195 121 / 0.5);
+}
+
 .border-Pbpeach\/40 {
   border-color: rgb(244 140 84 / 0.4);
+}
+
+.border-Pbpeach\/50 {
+  border-color: rgb(244 140 84 / 0.5);
 }
 
 .border-Pbpink\/40 {
   border-color: rgb(233 90 135 / 0.4);
 }
 
+.border-Pbpink\/50 {
+  border-color: rgb(233 90 135 / 0.5);
+}
+
 .border-Pbred\/40 {
   border-color: rgb(218 67 79 / 0.4);
+}
+
+.border-Pbred\/50 {
+  border-color: rgb(218 67 79 / 0.5);
+}
+
+.border-Pbslate\/50 {
+  border-color: rgb(108 122 137 / 0.5);
+}
+
+.border-Pbviolet {
+  --tw-border-opacity: 1;
+  border-color: rgb(162 120 206 / var(--tw-border-opacity, 1));
 }
 
 .border-Pbviolet\/40 {
@@ -699,72 +719,39 @@ video {
   border-color: rgb(232 203 18 / 0.4);
 }
 
+.border-Pbyellow\/50 {
+  border-color: rgb(232 203 18 / 0.5);
+}
+
 .border-\[\#ccc\] {
   --tw-border-opacity: 1;
   border-color: rgb(204 204 204 / var(--tw-border-opacity, 1));
 }
 
-.border-Pbviolet {
+.border-Pbbeige {
   --tw-border-opacity: 1;
-  border-color: rgb(162 120 206 / var(--tw-border-opacity, 1));
+  border-color: rgb(227 197 170 / var(--tw-border-opacity, 1));
 }
 
-.border-Pborange {
-  --tw-border-opacity: 1;
-  border-color: rgb(245 195 121 / var(--tw-border-opacity, 1));
+.border-Pbbeige\/30 {
+  border-color: rgb(227 197 170 / 0.3);
 }
 
-.border-Pbgreen {
-  --tw-border-opacity: 1;
-  border-color: rgb(75 170 122 / var(--tw-border-opacity, 1));
+.border-Pbbeige\/20 {
+  border-color: rgb(227 197 170 / 0.2);
 }
 
-.border-Pbpeach {
-  --tw-border-opacity: 1;
-  border-color: rgb(244 140 84 / var(--tw-border-opacity, 1));
+.border-Pbbeige\/50 {
+  border-color: rgb(227 197 170 / 0.5);
 }
 
-.border-Pbyellow {
-  --tw-border-opacity: 1;
-  border-color: rgb(232 203 18 / var(--tw-border-opacity, 1));
+.border-\[\#ccc\]\/50 {
+  border-color: rgb(204 204 204 / 0.5);
 }
 
-.border-Pbpink {
-  --tw-border-opacity: 1;
-  border-color: rgb(233 90 135 / var(--tw-border-opacity, 1));
-}
-
-.border-Pbred {
-  --tw-border-opacity: 1;
-  border-color: rgb(218 67 79 / var(--tw-border-opacity, 1));
-}
-
-.border-Pbbleu\/50 {
-  border-color: rgb(33 165 221 / 0.5);
-}
-
-.border-Pbgreen\/50 {
-  border-color: rgb(75 170 122 / 0.5);
-}
-
-.border-Pborange\/50 {
-  border-color: rgb(245 195 121 / 0.5);
-}
-
-.border-Pbpeach\/50 {
-  border-color: rgb(244 140 84 / 0.5);
-}
-
-.border-Pbpink\/50 {
-  border-color: rgb(233 90 135 / 0.5);
-}
-
-.border-Pbred\/50 {
-  border-color: rgb(218 67 79 / 0.5);
-}
-
-.border-Pbyellow\/50 {
-  border-color: rgb(232 203 18 / 0.5);
+.bg-Plbeige {
+  --tw-bg-opacity: 1;
+  background-color: rgb(252 238 229 / var(--tw-bg-opacity, 1));
 }
 
 .bg-Plbleu {
@@ -795,6 +782,11 @@ video {
 .bg-Plred {
   --tw-bg-opacity: 1;
   background-color: rgb(255 157 152 / var(--tw-bg-opacity, 1));
+}
+
+.bg-Plslate {
+  --tw-bg-opacity: 1;
+  background-color: rgb(221 226 235 / var(--tw-bg-opacity, 1));
 }
 
 .bg-Plviolet {
@@ -832,10 +824,6 @@ video {
 
 .p-2 {
   padding: 0.5rem;
-}
-
-.p-1 {
-  padding: 0.25rem;
 }
 
 .pt-24 {
@@ -907,28 +895,12 @@ video {
     right: -2.5rem;
   }
 
-  .sm\:m-4 {
-    margin: 1rem;
-  }
-
   .sm\:m-5 {
     margin: 1.25rem;
   }
 
   .sm\:m-6 {
     margin: 1.5rem;
-  }
-
-  .sm\:m-7 {
-    margin: 1.75rem;
-  }
-
-  .sm\:m-8 {
-    margin: 2rem;
-  }
-
-  .sm\:p-2 {
-    padding: 0.5rem;
   }
 }
 
