@@ -586,10 +586,6 @@ video {
   margin: 0.5rem;
 }
 
-.m-4 {
-  margin: 1rem;
-}
-
 .flex {
   display: flex;
 }
@@ -816,19 +812,9 @@ video {
   font-family: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
 }
 
-.text-3xl {
-  font-size: 1.875rem;
-  line-height: 2.25rem;
-}
-
 .text-2xl {
   font-size: 1.5rem;
   line-height: 2rem;
-}
-
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
 }
 
 .font-bold {
@@ -889,10 +875,6 @@ video {
     margin: 1rem;
   }
 
-  .sm\:m-5 {
-    margin: 1.25rem;
-  }
-
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
@@ -904,12 +886,12 @@ video {
     margin: 2.5rem;
   }
 
-  .md\:m-7 {
-    margin: 1.75rem;
-  }
-
   .md\:m-6 {
     margin: 1.5rem;
+  }
+
+  .md\:w-\[500px\] {
+    width: 500px;
   }
 
   .md\:-rotate-\[3deg\] {
@@ -933,7 +915,21 @@ video {
 }
 
 @media (min-width: 1024px) {
-  .lg\:m-20 {
+  .lg\:m-12 {
+    margin: 3rem;
+  }
+
+  .lg\:w-auto {
+    width: auto;
+  }
+
+  .lg\:flex-row {
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 1280px) {
+  .xl\:m-20 {
     margin: 5rem;
   }
 }
