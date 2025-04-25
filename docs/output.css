@@ -630,6 +630,10 @@ video {
   min-height: 100vh;
 }
 
+.w-2\/3 {
+  width: 66.666667%;
+}
+
 .w-6 {
   width: 1.5rem;
 }
@@ -644,14 +648,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-2\/3 {
-  width: 66.666667%;
-}
-
-.flex-1 {
-  flex: 1 1 0%;
 }
 
 .flex-row {
@@ -923,36 +919,11 @@ video {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-/* * {
-    @apply border border-red-600;
-  } */
-
-/* <!-- top navigation -->
-  <nav class="bg-Plbleu/50 m-1 mb-6 mt-0 flex flex-wrap items-center justify-between gap-2 rounded-lg p-2 font-bold shadow-md">
-    <!-- Left side: Hudalaa -->
-    <ul class="flex flex-1 justify-center sm:w-auto sm:justify-start">
-      <li>
-        <a href="#home" class="flex flex-row items-center gap-1">
-         <span class="flex flex-row gap-1"><span><img src="Media/sparkle.png" alt="" class="w-6 h-6"></span class="">Hudalaa</span>
-        </a>
-      </li>
-    </ul>
-    <!-- Right side: Portfolio/Hire me!  -->
-    <ul class="flex flex-1 justify-center sm:w-auto sm:justify-end">
-      <li>
-        <a href="#Portfolio" class="flex flex-row items-center gap-1">
-          <span>Porftolio</span>
-        </a>
-      </li>
-    </ul>
-    <ul class="flex flex-1 justify-center sm:w-auto sm:justify-end">
-      <li>
-        <a href="#hireme" class="flex flex-row items-center gap-1">
-          <span>Hire me!</span>
-        </a>
-      </li>
-    </ul>
-  </nav> */
+* {
+  border-width: 1px;
+  --tw-border-opacity: 1;
+  border-color: rgb(220 38 38 / var(--tw-border-opacity, 1));
+}
 
 .hover\:rotate-0:hover {
   --tw-rotate: 0deg;
@@ -970,18 +941,6 @@ video {
 
   .sm\:w-\[150px\] {
     width: 150px;
-  }
-
-  .sm\:w-auto {
-    width: auto;
-  }
-
-  .sm\:justify-start {
-    justify-content: flex-start;
-  }
-
-  .sm\:justify-end {
-    justify-content: flex-end;
   }
 
   .sm\:text-3xl {
