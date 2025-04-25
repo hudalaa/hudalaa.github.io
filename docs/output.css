@@ -947,6 +947,10 @@ video {
     width: 150px;
   }
 
+  .sm\:w-auto {
+    width: auto;
+  }
+
   .sm\:text-3xl {
     font-size: 1.875rem;
     line-height: 2.25rem;
