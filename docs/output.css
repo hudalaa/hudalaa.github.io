@@ -803,6 +803,10 @@ video {
   border-color: rgb(0 0 0 / 0.9);
 }
 
+.border-Pbviolet\/50 {
+  border-color: rgb(162 120 206 / 0.5);
+}
+
 .bg-Plbeige {
   --tw-bg-opacity: 1;
   background-color: rgb(252 238 229 / var(--tw-bg-opacity, 1));
@@ -1001,6 +1005,11 @@ video {
     margin: 1rem;
   }
 
+  .sm\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+
   .sm\:w-1\/2 {
     width: 50%;
   }
@@ -1038,6 +1047,11 @@ video {
 
   .md\:m-6 {
     margin: 1.5rem;
+  }
+
+  .md\:mx-4 {
+    margin-left: 1rem;
+    margin-right: 1rem;
   }
 
   .md\:w-\[450px\] {
@@ -1094,12 +1108,22 @@ video {
     margin-right: 5rem;
   }
 
+  .lg\:mx-6 {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+
   .lg\:gap-12 {
     gap: 3rem;
   }
 }
 
 @media (min-width: 1280px) {
+  .xl\:mx-10 {
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+  }
+
   .xl\:justify-start {
     justify-content: flex-start;
   }
