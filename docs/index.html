@@ -9,12 +9,12 @@
 <body class="text-[#0c0c0c] font-mono min-h-screen bg-[radial-gradient(circle,_#ccc_0.5px,_transparent_1px)] bg-[length:10px_10px] ">
 
    <!-- top navigation -->
-   <nav class="bg-Plbleu/50 m-1 mb-6 mt-0 flex items-center gap-1 rounded-lg p-2 font-bold shadow-md">
+   <nav class="bg-Plbleu/50 sm:m-1 mb-6 mt-0 flex items-center gap-1 rounded-lg p-2 font-bold shadow-md">
     <!-- Left side: Hudalaa -->
     <div class="flex flex-1 ">
       <ul class="flex flex-1 justify-center sm:w-auto md:justify-start">
         <li>
-          <a href="#home" class="flex flex-row items-center gap-1">
+          <a href="#home" class="flex flex-row items-center">
           <span class="flex flex-row gap-1"><span><img src="Media/sparkle.png" alt="" class="w-6 h-6"></span>Hudalaa</span>
           </a>
         </li>
@@ -23,7 +23,7 @@
     <!-- Right side: Portfolio/Hire me!  -->
     <div class="rightside flex w-2/3 flex-wrap justify-around md:justify-end md:gap-6 ">
       
-      <ul class="m-1">
+      <ul class="p-1">
         <li>
           <a href="#Portfolio">
             <span>Porftolio</span>
@@ -31,7 +31,7 @@
         </li>
       </ul>
 
-      <ul class="m-1">
+      <ul class="p-1">
         <li>
           <a href="#hireme">
             <span>Hire me!</span>
@@ -169,20 +169,21 @@
       <h2 class="m-1 p-1 font-bold bg-Plbleu/50 rounded-lg ">Contact here</h2>
     </div> 
   <!-- footer  -->
-   <hr class="m-2 mb-6 mt-2 border-Pbbleu border-2 rounded-lg">
+   <hr class="m-2 mb-2 mt-2 border-black/90 border-2 rounded-lg">
   <footer class="m-2 font-bold">
-    <div>
+    <div class="flex flex-row flex-wrap m-1 justify-between items-center font-bold">
 
-      <div><span class="flex flex-row gap-1"><span><img src="Media/sparkle.png" alt="" class="w-6 h-6"></span>Hudalaa</span></div>
+      <div class="px-2 py-4 w-full sm:w-1/2"><span class="flex flex-row gap-1"><span><img src="Media/sparkle.png" alt="" class="w-6 h-6"></span>Hudalaa</span></div>
 
-      <!-- bottom naviagation -->
-      <nav class="flex flex-row gap-4 sm:gap-6 md:gap-10 lg:gap-12 justify-start items-center flex-wrap p">
-        <ul>Twitter X</ul>
-        <ul>LinkdIn</ul>
-        <ul>Insagram</ul>
-      </nav>
-
-      <div class="p-2">Copyright. Portfolio 2025</div> 
+      <div class="flex flex-col ">
+        <!-- bottom naviagation -->
+        <nav class="flex flex-row justify-start sm:justify-center gap-4 sm:gap-6 md:gap-10 lg:gap-12 items-center flex-wrap p-2">
+          <ul>Twitter X</ul>
+          <ul>LinkdIn</ul>
+          <ul>Insagram</ul>
+        </nav>
+        <div class="flex p-2 justify-start sm:justify-center">Copyright. Portfolio 2025</div> 
+      </div>
     </div>
   </footer>
 </body>

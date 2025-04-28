@@ -3,6 +3,36 @@
 @tailwind utilities;
 
 
-* {
+/* * {
     @apply border border-red-600;
-  }
+  } */
+
+  /* <hr class="my-6 border sm:border-2 border-blue-300 " />
+
+<!-- footer  -->
+<footer class="flex flex-row gap-1 flex-wrap m-4 justify-between items-center font-bold">
+  <div class="w-full sm:w-1/2"> 
+    <ul class="flex justify-start p-2 py-5">
+          <a href="" class="flex flex-row items-center gap-1">
+          <span class="flex flex-row gap-1"><span><img src="Media/sparkle.png" alt="" class="w-6 h-6"></span class="">Hudalaa</span>
+          </a>
+        </ul>
+  </div>
+  
+  <div class="flex flex-col">
+    <!-- bottom naviagation -->
+  <nav class="flex justify-start sm:justify-center gap-4 md:gap-12 items-center p-2">
+    <ul>
+      Twitter X
+    </ul>
+    <ul>
+      LinkdIn
+    </ul>
+    <ul>
+      Instagram
+    </ul>
+  </nav>
+  <div class="flex justify-start sm:justify-center items-center p-2 w-full sm:w-auto">Copyright. Portfolio 2025</div>
+
+  </div>
+</footer> */
